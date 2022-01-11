@@ -38,10 +38,12 @@ body,
 html {
     scrollbar-width: thin;
     scrollbar-color: rgb(88, 88, 88) rgba(255, 255, 255, 0);
+    scroll-behavior:smooth;
 }
 
 *::-webkit-scrollbar {
     width: 5px;
+
 }
 
 *::-webkit-scrollbar-track {
@@ -5036,8 +5038,8 @@ html:not(.lt-ie10) .not-animated {
     border-radius: 10px;
     box-shadow: 8px 8px 22px rgba(21, 22, 24, 0.38), -4px -2px 16px rgba(195, 200, 205, 0.08);
     opacity: 0;
-    background: #78c5d6;
-    color: #fff;
+    background: #252525;
+    color: rgb(255, 255, 255) !important;
     will-change: transform;
     z-index: 10;
     transition: .2s;
@@ -5046,6 +5048,7 @@ html:not(.lt-ie10) .not-animated {
 .ui-to-top.active {
     transform: scale(1);
     opacity: 1;
+    color:white;
     transition: all 0.2s, transform 0.2s cubic-bezier(0.5, 0, 1, 2);
 }
 
@@ -5101,7 +5104,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .navbar-button:hover {
-    color: #78c5d6;
+    color: #c9e7f5;
 }
 
 .navbar-button.navbar-info-active::before,
@@ -5226,7 +5229,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .rd-navbar-fixed .navbar-switch:hover {
-    color: #78c5d6;
+    color: rgb(152, 217, 219);
 }
 
 .rd-navbar-fixed .navbar-switch.active::before {

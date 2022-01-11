@@ -6,10 +6,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <script src="js/jnm.js"></script>
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css"
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap">
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
@@ -26,7 +29,50 @@
         </div>
     </div>
     <div class="page">
+        <header class="section rd-navbar-wrap">
+            <nav class="rd-navbar">
+                <div class="navbar-container">
+                    <div class="navbar-cell">
+                        <div class="navbar-panel">
+                            <button class="navbar-switch"
+                                data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","isolate":"[data-multi-switch]"}'></button>
+                            <div class="navbar-logo"><a class="navbar-logo-link" href="index.html"><img
+                                        class="navbar-logo-default" src="images/flogo.png" alt="Findonasi" width="150"
+                                        height="50" loading="lazy" /><img class="navbar-logo-inverse"
+                                        src="images/favicon.png" alt="Findonasi" width="112" height="30"
+                                        loading="lazy" /></a></div>
+                        </div>
+                    </div>
+                    <div class="navbar-spacer"></div>
+                    <div class="navbar-cell navbar-sidebar">
+                        <ul class="navbar-navigation rd-navbar-nav fullpage-navigation">
+                            <li class="navbar-navigation-root-item active" data-menuanchor="home"><a
+                                    class="navbar-navigation-root-link" href="/#home">Home</a>
 
+                            </li>
+
+
+                            <li class="navbar-navigation-root-item" data-menuanchor="contacts"><a
+                                    class="navbar-navigation-root-link" href="/#contacts">Contacts</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="navbar-cell">
+                        <div class="navbar-subpanel">
+                            <div class="navbar-subpanel-item">
+                                <button class="navbar-button navbar-info-button mdi-dots-vertical"
+                                    data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","class":"navbar-info-active","isolate":"[data-multi-switch]"}'></button>
+                                <div class="navbar-info">
+                                    <button class="btn btn-sm" data-modal-trigger='{"target":"#modal-login"}'>Get
+                                        App</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
         <section class="section section-lg section-one-screen">
             <div class="container">
                 <h2 class="text-center">Privacy Policy</h2>
