@@ -229,7 +229,7 @@
                             to
                             Findonasi. We will try to reply asap. </p>
                         <form class="rd-mailform" data-form-output="form-output-global" data-form-type="contact"
-                            method="post" action="bat/rd-mailform.php">
+                            method="post" action="send.php">
                             <div class="row row-30">
                                 <div class="col-xs-6">
                                     <div class="form-group">
